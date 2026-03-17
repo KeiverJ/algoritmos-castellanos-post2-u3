@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.u3.lab2.HuffmanEncoderTest" time="0.08" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.u3.lab2.NQueensTest" time="0.218" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,9 +58,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testSimboloUnico" classname="com.u3.lab2.HuffmanEncoderTest" time="0.034"/>
-  <testcase name="testPropiedadDePrefijo" classname="com.u3.lab2.HuffmanEncoderTest" time="0.017"/>
-  <testcase name="testCodigosGenerados" classname="com.u3.lab2.HuffmanEncoderTest" time="0.002"/>
-  <testcase name="testCompresionMenorQueASCII" classname="com.u3.lab2.HuffmanEncoderTest" time="0.005"/>
-  <testcase name="testArbolSeConstruye" classname="com.u3.lab2.HuffmanEncoderTest" time="0.002"/>
+  <testcase name="testAmbosProducenMismoResultado" classname="com.u3.lab2.NQueensTest" time="0.112"/>
+  <testcase name="testNaiveN9a12" classname="com.u3.lab2.NQueensTest" time="0.095"/>
+  <testcase name="testNaiveN1a8" classname="com.u3.lab2.NQueensTest" time="0.001"/>
+  <testcase name="testBitmaskN9a12" classname="com.u3.lab2.NQueensTest" time="0.007"/>
+  <testcase name="testBitmaskN1a8" classname="com.u3.lab2.NQueensTest" time="0.0"/>
 </testsuite>
